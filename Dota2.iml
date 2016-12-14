@@ -41,5 +41,7 @@
     <orderEntry type="library" name="Spring-4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Hibernate 5.2.3-5.2.3" level="project" />
     <orderEntry type="library" name="gson-2.8.0" level="project" />
+    <orderEntry type="library" name="javax.servlet" level="project" />
+    <orderEntry type="library" name="javax.servlet.jsp" level="project" />
   </component>
 </module>

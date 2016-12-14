@@ -12,8 +12,8 @@
   </head>
   <body>
   <h5>Welcome to The International</h5>
-  <img src="img/TheInternational.jpg" name="国际邀请赛">
-  <form name="match" action="match.action" method="post">
+
+  <form name="matcha" action="match" method="post">
       <table>
         <tr>
           <th>

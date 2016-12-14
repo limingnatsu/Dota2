@@ -5,10 +5,11 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+
     <package name="Match" extends="struts-default" namespace="/">
-        <action name="match" class="com.dota2.action.Match" method="">
-            <result name="success"></result>
-            <result name="error"></result>
+        <action name="match" class="com.dota2.action.Test" >
+            <result name="success">jsp/match_success.jsp</result>
+            <result name="error">jsp/match_fail.jsp</result>
         </action>
     </package>
 </struts>
