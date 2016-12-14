@@ -8,8 +8,8 @@
 
     <package name="Match" extends="struts-default" namespace="/">
         <action name="match" class="com.dota2.action.Test" >
-            <result name="success">/jsp/match_success.jsp</result>
-            <result name="error">/jsp/match_fail.jsp</result>
+            <result name="success" >jsp/match_success.jsp</result>
+            <result name="error" >jsp/match_fail.jsp</result>
         </action>
     </package>
 </struts>
